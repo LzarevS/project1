@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+  /* body {
+    background-image: url(../img/cooperation.jpg);
+    background-repeat: no-repeat;
+  
+  } */
 .container {
     border: 1px solid rgb(145, 144, 144);
     display: flex;
@@ -9,6 +15,7 @@
     align-items: center;
     margin: 200px 100px 0 100px;
     box-shadow: 1px 2px 3px 2px rgb(172, 172, 172);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -21,4 +28,28 @@
 }
 .img {
     display: flex;
+}
+
+.div1{
+  display: flex;
+}
+.box{
+  position: absolute;
+  margin-top: 100px;
+  width: 100px;
+  height:100px;
+  margin-left: 40px;
+  background-color: blue;
+  transition: 2s;
+  z-index: 1;
+}
+.div3 {
+  z-index: 2;
+  background-color: aqua;
+}
+.div3:hover{
+  margin-left: 170px;
+}
+.box:hover {
+  cursor: pointer;
 }
