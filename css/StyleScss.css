@@ -1,0 +1,14 @@
+.btn_open {
+  font-size: 18px;
+}
+.btn_open:hover + .clas_box {
+  display: block;
+}
+
+.clas_box {
+  color: rgb(187, 58, 58);
+}
+
+.clas_box {
+  display: none;
+}/*# sourceMappingURL=StyleScss.css.map */

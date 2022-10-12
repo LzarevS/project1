@@ -1,0 +1,20 @@
+$color_title:rgb(187,58,58);
+$foneSize_title: 18px;
+
+
+.btn_open{
+    font-size: $foneSize_title;
+    &:hover + .clas_box{
+        display: block;
+    }
+}
+.clas_box{
+    color: $color_title;
+}
+.clas_box{
+    display: none;
+}
+
+.box_container{
+
+}

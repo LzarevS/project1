@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(19, 17, 171);
   }
   
   li {
@@ -19,7 +23,7 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(115, 0, 255);
   }
   
   li.dropdown {
@@ -43,7 +47,7 @@ ul {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #c7c7c7;}
+  .dropdown-content a:hover {background-color: #460505;}
   
   .dropdown:hover .dropdown-content {
     display: block;
